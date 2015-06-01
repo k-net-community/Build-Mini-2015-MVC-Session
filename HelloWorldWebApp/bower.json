@@ -1,0 +1,7 @@
+{
+  "name": "HelloWorldWebApp",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "3.3.4"
+  }
+}
