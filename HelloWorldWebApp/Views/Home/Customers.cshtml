@@ -1,0 +1,27 @@
+﻿@model IEnumerable<HelloWorldWebApp.Models.Customer>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<table>
+    <tr>
+        <th>CustomerID</th>
+        <th>CompanyName</th>
+        <th>City</th>
+        <th>Address</th>
+        <th>Phone</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.CustomerID</td>
+        <td>@item.CompanyName</td>
+        <td>@item.City</td>
+        <td>@item.Address</td>
+        <td>@item.Phone</td>
+    </tr>
+    }
+</table>

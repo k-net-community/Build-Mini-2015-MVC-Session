@@ -1,0 +1,12 @@
+﻿@addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
+@inject MyService.IServiceComponent service
+@{
+    Layout = "~/Views/Shared/_Shared.cshtml";
+}
+
+<cache>
+    <h1>@DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")</h1>
+</cache>
+<h1>@DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")</h1>
+
+<h3>Service Value: @service.GetValue()</h3>

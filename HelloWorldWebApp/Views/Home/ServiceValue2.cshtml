@@ -1,0 +1,7 @@
+﻿@addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
+@{
+    Layout = "~/Views/Shared/_Shared.cshtml";
+}
+
+<h3>Service Value: @Component.Invoke("ServiceValueVC")</h3>
+<h3>Service Value: @Component.Invoke("ServiceValueVC", 100)</h3>

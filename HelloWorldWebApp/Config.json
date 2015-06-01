@@ -1,0 +1,11 @@
+﻿{
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Initial catalog=Northwind; integrated security=SSPI"
+    }
+  },
+
+  "appSettings": {
+
+  }
+}
