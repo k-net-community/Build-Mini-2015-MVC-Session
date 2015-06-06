@@ -1,4 +1,4 @@
-# Build-Mini-2015-MVC-Session
+# Build Mini 2015: ASP.NET 5, MVC 6 與 Azure App Services
 
 這是 K.NET 於 6/6 舉辦的 Build Mini 2015 課程，ASP.NET 5, MVC 6 與 Azure App Sevices 的課程內容，包含 Slide 與 Sample Code，執行環境是 DNX v1.0.0-beta4，若是 DNX 版本不同可能無法相容，建議使用 DNX v1.0.0-beta4 來執行。
 
