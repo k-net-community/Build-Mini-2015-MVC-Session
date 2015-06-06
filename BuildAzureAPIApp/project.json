@@ -1,0 +1,39 @@
+{
+  "userSecretsId": "aspnet5-BuildAzureAPIApp-20150601065034",
+  "webroot": "wwwroot",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNet.Mvc": "6.0.0-beta4",
+    "Microsoft.AspNet.Server.IIS": "1.0.0-beta4",
+    "Microsoft.AspNet.Server.WebListener": "1.0.0-beta4",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-beta4",
+    "WebActivatorEx": "2.0.6",
+    "WindowsAzure.Storage": "4.3.0",
+    "WindowsAzure.ServiceBus": "2.6.7",
+    "System.IO": "4.0.10-beta-22913"
+  },
+
+  "commands": {
+    "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5000"
+  },
+
+  "frameworks": {
+    "dnx451": {
+    }
+    //"dnxcore50": { }
+  },
+
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ],
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ]
+}

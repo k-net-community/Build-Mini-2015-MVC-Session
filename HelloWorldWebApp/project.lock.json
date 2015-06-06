@@ -3,22 +3,27 @@
   "version": -9998,
   "projectFileDependencyGroups": {
     "": [
-      "MyService ",
-      "Microsoft.AspNet.Server.IIS >= 1.0.0-beta4",
-      "Microsoft.AspNet.Server.WebListener >= 1.0.0-beta4",
+      "EntityFramework >= 7.0.0-beta4",
       "Microsoft.AspNet.Diagnostics >= 1.0.0-beta4",
-      "Microsoft.AspNet.StaticFiles >= 1.0.0-beta4",
       "Microsoft.AspNet.Mvc >= 6.0.0-beta4",
       "Microsoft.AspNet.Mvc.TagHelpers >= 6.0.0-beta4",
+      "Microsoft.AspNet.Server.IIS >= 1.0.0-beta4",
+      "Microsoft.AspNet.Server.WebListener >= 1.0.0-beta4",
+      "Microsoft.AspNet.StaticFiles >= 1.0.0-beta4",
       "Microsoft.AspNet.Tooling.Razor >= 1.0.0-beta4",
-      "Microsoft.Framework.Logging >= 1.0.0-beta4",
-      "Microsoft.Framework.Logging.Console >= 1.0.0-beta4",
       "Microsoft.Framework.ConfigurationModel >= 1.0.0-beta4",
       "Microsoft.Framework.ConfigurationModel.Json >= 1.0.0-beta4",
-      "EntityFramework >= 7.0.0-beta4"
+      "Microsoft.Framework.Logging >= 1.0.0-beta4",
+      "Microsoft.Framework.Logging.Console >= 1.0.0-beta4",
+      "MyService >= 1.0.0"
     ],
     "DNX,Version=v4.5.1": [],
-    "DNXCore,Version=v5.0": []
+    "DNXCore,Version=v5.0": [
+      "System.Collections >= 4.0.10-beta-22816",
+      "System.Linq >= 4.0.0-beta-22816",
+      "System.Threading >= 4.0.10-beta-22816",
+      "Microsoft.CSharp >= 4.0.0-beta-22816"
+    ]
   },
   "libraries": {
     "EntityFramework/7.0.0-beta4": {
